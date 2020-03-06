@@ -1,6 +1,7 @@
 /* TYPOGRAPHY DEFAULTS
 ====================================================================== */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
 body {
     padding: 0 2rem;
     font: 1.5rem/1.4 'Open Sans', Helvetica, Arial, sans-serif;
@@ -8,10 +9,12 @@ body {
     color: #888888;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-size: 2.4rem;
     color: #444444;
 }
+
 h2 {
     text-transform: uppercase;
     border-bottom: 2px solid #222222;
@@ -20,6 +23,7 @@ h2 {
     letter-spacing: -0.15rem;
     text-align: center;
 }
+
 @media (min-width: 800px) {
     h2 {
         font-size: 3.2rem;
@@ -31,11 +35,15 @@ h2 strong {
     font-weight: 800;
     color: #666666;
 }
+
 h3 {
     font-weight: 800;
     line-height: 1.25;
 }
-p + p { margin-top: 2rem; }
+
+p+p {
+    margin-top: 2rem;
+}
 
 /* SECTION
 ====================================================================== */
@@ -69,12 +77,24 @@ dl::after {
         width: calc(50% - 3rem/2);
         float: left;
     }
-    #blog article:not(:nth-of-type(2n+2)) { margin-right: 3rem; }
+
+    #blog article:not(:nth-of-type(2n+2)) {
+        margin-right: 3rem;
+    }
 }
+
 @media (min-width: 800px) {
-    #blog article { width: calc(100%/3 - 6rem/3); }
-    #blog article:not(:nth-of-type(2n+2)) { margin-right: 0; }
-    #blog article:not(:nth-of-type(3n+3)) { margin-right: 3rem; }
+    #blog article {
+        width: calc(100%/3 - 6rem/3);
+    }
+
+    #blog article:not(:nth-of-type(2n+2)) {
+        margin-right: 0;
+    }
+
+    #blog article:not(:nth-of-type(3n+3)) {
+        margin-right: 3rem;
+    }
 }
 
 /* THUMNAIL IMAGE
@@ -88,11 +108,13 @@ dl::after {
     left: -2rem;
     overflow: hidden;
 }
+
 .thumbnail img {
     min-width: 100%;
     min-height: 100%;
     filter: grayscale(50%);
 }
+
 .thumbnail::before {
     content: "";
     display: block;
@@ -113,21 +135,26 @@ dl {
     position: relative;
     padding: 1rem 0;
 }
-dt, dd {
+
+dt,
+dd {
     line-height: 1;
     float: left;
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
 dt {
     font-weight: 800;
     clear: left;
 }
+
 dt::after {
     content: ":";
     font-weight: 400;
     color: #999999;
 }
+
 dd {
     border-radius: 2px;
     position: relative;
@@ -136,7 +163,7 @@ dd {
 
 /* READ MORE LINK
 ====================================================================== */
-#blog a{
+#blog a {
     display: block;
     font-weight: 600;
     text-decoration: none;
@@ -147,10 +174,12 @@ dd {
     color: #f0f0f0;
     transition: all 0.5s;
 }
+
 #blog a:hover {
     background: #333333;
     transform: scale(1.025);
 }
+
 #blog a:active {
     background: #222222;
     transform: scale(1.05);
@@ -158,10 +187,11 @@ dd {
 
 /* LOAD MORE BUTTON
 ====================================================================== */
-article + p {
+article+p {
     clear: both;
     text-align: center;
 }
+
 button {
     display: block;
     width: 100%;
@@ -175,12 +205,20 @@ button {
     transform-origin: center center;
     transition: all 0.5s;
 }
-button::before { right: calc(100% + 2rem); }
-button::after { left: calc(100% + 2rem); }
+
+button::before {
+    right: calc(100% + 2rem);
+}
+
+button::after {
+    left: calc(100% + 2rem);
+}
+
 button:hover {
     background: #333333;
     transform: scale(1.025);
 }
+
 button:active {
     background: #555555;
     transform: scale(1.05);
