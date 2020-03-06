@@ -1,0 +1,40 @@
+{
+  "courses":[
+    {
+      "id": 1,
+      "location": "The Club at Savannah Harbor",  
+	  "image":"https://theclubatsavannahharbor.com/golf/proto/theclubatsavannahharbor/images/gallery/the%20club/the_club01.jpg",
+      "city": "Savannah",
+      "state": "Georgia",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat nisl pretium fusce id velit.",
+	  "rating":5,
+	  "hours":"Mon-Sun 7:30am-5:00pm",
+	  "rentalclubs":"Club Rental: Yes",
+	  "link":"https://theclubatsavannahharbor.com/"	  
+    },
+    {
+      "id": 2,
+      "location": "Hilton Head National",  
+	  "image":"https://www.hiltonheadnational.com/wp-content/uploads/sites/5748/2016/04/HHN2-2.jpg",
+      "city": "Bluffton",
+      "state": "South Carolina",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat nisl pretium fusce id velit.",
+	  "rating":4,
+	  "hours":"Mon-Sun 8:00am-6:00pm",
+	  "rentalclubs":"Club Rental: No",
+	  "link":"https://www.hiltonheadnational.com/"	  
+    },
+    {
+      "id": 3,
+      "location": "HARBOUR TOWN GOLF LINKS",  
+	  "image":"https://www.seapines.com/image-gallery/images/hole-by-hole/harbour-town-golf-links/4.jpg",
+      "city": "Hilton Head Island",
+      "state": "South Carolina",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat nisl pretium fusce id velit.",
+	  "rating":5,
+	  "hours":"Mon-Sun 8:00am-6:00pm",
+	  "rentalclubs":"Club Rental: Yes",
+	  "link":"https://www.seapines.com/golf/harbour-town-golf-links.aspx"	  
+    }
+  ]
+}
