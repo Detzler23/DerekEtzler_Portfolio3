@@ -6,7 +6,7 @@ xhr.onload = function() {
     //Safe JSON Data
     var data = JSON.parse(xhr.responseText);
 
-
+    //Insert the HTML articles & into section (insertAdjacentHTML)
     var coursesSection = document.querySelector('#blog');
     if (coursesSection) {
         let courses = '';
