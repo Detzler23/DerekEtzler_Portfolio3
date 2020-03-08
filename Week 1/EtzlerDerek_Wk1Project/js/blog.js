@@ -18,8 +18,8 @@ xhr.onload = function() {
             courses += '<h4 class="location">' + data.courses[i].city + ', ' +
                 data.courses[i].state + '</h4>';
             courses += '<p>' + data.courses[i].description + '</p>';
-            courses += '<p> Rating: <meter min="0" max="5" value="' + data.courses[i].rating +
-                '">' + data.courses[i].rating + 'out of 5</meter> <a href"/rate">Rate it</a></p>';
+            courses += '<h4> Rating: <meter min="0" max="5" value="' + data.courses[i].rating +
+                '">' + data.courses[i].rating + 'out of 5</meter> <a href"/rate">Rate it</a></h4>';
 
             courses += '<dl>';
             courses += '<dt>Hours Open</dt>';
