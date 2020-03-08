@@ -1,8 +1,9 @@
 document.querySelector("#blog h2").innerHTML = "Local Golf";
+//Use AJAX to load JSON file
 var xhr = new XMLHttpRequest();
 
-xhr.onload = function () {
-
+xhr.onload = function() {
+    //Safe JSON Data
     var data = JSON.parse(xhr.responseText);
 
 
@@ -41,5 +42,6 @@ xhr.onload = function () {
 function goToLink(link) {
     window.location.href = link;
 }
+//Call Ajax- Create path to connection- Nothing being sent out
 xhr.open('GET', 'https://detzler23.github.io/DerekEtzler_Portfolio3/golf.json', true);
 xhr.send(null);
