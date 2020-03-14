@@ -1,0 +1,29 @@
+{
+    "courses": [{
+            "id": 1,
+            "location": "The Club at Savannah Harbor",
+            "image": "https://theclubatsavannahharbor.com/golf/proto/theclubatsavannahharbor/images/gallery/the%20club/the_club01.jpg"
+        },
+        {
+            "id": 2,
+            "location": "Hilton Head National",
+            "image": "https://www.hiltonheadnational.com/wp-content/uploads/sites/5748/2016/04/HHN2-2.jpg"
+        },
+        {
+            "id": 3,
+            "location": "HARBOUR TOWN GOLF LINKS",
+            "image": "https://www.seapines.com/image-gallery/images/hole-by-hole/harbour-town-golf-links/4.jpg"
+        },
+        {
+            "id": 4,
+            "location": "AUGUSTA NATIONAL",
+            "image": "https://www.amateurgolf.com/images/uploads/00051372.jpg"
+        },
+        {
+            "id": 5,
+            "location": "TPC SAWGRASS",
+            "image": "https://golfadvisor.brightspotcdn.com/dims4/default/f4f927a/2147483647/strip/true/crop/1000x597+0+34/resize/2880x1720!/format/jpg/quality/90/?url=https%3A%2F%2Fgolfadvisor.brightspotcdn.com%2Fe5%2F2a%2Ff27f3d9e73d3bd9361046c8299aa%2Fp.php"
+        }
+
+    ]
+}
