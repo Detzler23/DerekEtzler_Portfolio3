@@ -15,5 +15,6 @@
 after conducting independant research I am fairly confident I have found a solution. Will
 update and submit work tomorrow.
 
-  
+**Week4**
+March 23rd- Fixed issues in week 3 assignment. Resubmitted work to instructor and repo  
 
